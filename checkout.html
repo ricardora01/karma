@@ -145,16 +145,16 @@ customer, please proceed to the Billing & Shipping section.</p>
 </div>
 </form>
 </div>
-<div class="cupon_area">
+<!--<div class="cupon_area">
 <div class="check_title">
 <h2>Have a coupon? <a href="#">Click here to enter your code</a></h2>
 </div>
 <input type="text" placeholder="Enter coupon code">
 <a class="tp_btn" href="#">Apply Coupon</a>
-</div>
+</div>-->
 <div class="billing_details">
 <div class="row">
-<div class="col-lg-8">
+<!--<div class="col-lg-8">
 <h3>Billing Details</h3>
 <form class="row contact_form" action="#" method="post" novalidate="novalidate">
 <div class="col-md-6 form-group p_star">
@@ -220,8 +220,8 @@ customer, please proceed to the Billing & Shipping section.</p>
 <textarea class="form-control" name="message" id="message" rows="1" placeholder="Order Notes"></textarea>
 </div>
 </form>
-</div>
-<div class="col-lg-4">
+</div>-->
+<div class="col-lg-6">
 <div class="order_box">
 <h2>Your Order</h2>
 <ul class="list">
@@ -235,6 +235,7 @@ customer, please proceed to the Billing & Shipping section.</p>
 <li><a href="#">Shipping <span>Flat rate: $50.00</span></a></li>
 <li><a href="#">Total <span>$2210.00</span></a></li>
 </ul>
+<!--
 <div class="payment_item">
 <div class="radion_btn">
 <input type="radio" id="f-option5" name="selector">
@@ -243,7 +244,8 @@ customer, please proceed to the Billing & Shipping section.</p>
 </div>
 <p>Please send a check to Store Name, Store Street, Store Town, Store State / County,
 Store Postcode.</p>
-</div>
+</div>-->
+<!--
 <div class="payment_item active">
 <div class="radion_btn">
 <input type="radio" id="f-option6" name="selector">
@@ -253,20 +255,25 @@ Store Postcode.</p>
 </div>
 <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal
 account.</p>
-</div>
+</div>-->
 <div class="creat_account">
+  <!--
 <input type="checkbox" id="f-option4" name="selector">
 <label for="f-option4">I’ve read and accept the </label>
-<a href="#">terms & conditions*</a>
+<a href="#">terms & conditions*</a>-->
 </div>
-<a class="primary-btn" href="#">Proceed to Paypal</a>
+<stripe-buy-button style="position: relative; left: 100px;"
+  buy-button-id="buy_btn_1PcwOBJSv7bopYXW39yH6N5G"
+  publishable-key="pk_test_51Kozt5JSv7bopYXWiSzlh7xVByhL0tTBDuNJ8VAGJ6CKr86FaKBNDWg2px6Oz4to1AgFMvkO7LYvH2CSY8ddJQW800S4spqaQ3"
+>
+</stripe-buy-button>
+<!--<a class="primary-btn" href="#">Proceed to Paypal</a>-->
 </div>
 </div>
 </div>
 </div>
 </div>
 </section>
-
 
 <footer class="footer-area section_gap">
 <div class="container">
@@ -362,5 +369,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"89b10ee37f2b21b9","b":1,"version":"2024.4.1","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
 </body>
 
-<!-- Mirrored from preview.colorlib.com/theme/karma/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 28 Jun 2024 22:21:02 GMT -->
 </html>
